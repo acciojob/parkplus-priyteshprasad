@@ -3,7 +3,6 @@ package com.driver.model;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.UUID;
 
 @Entity
 public class User {
@@ -66,7 +65,7 @@ public class User {
         return reservations;
     }
 
-    public void setReservations(List<Reservation> reservations) {
+    public void setReservationList(List<Reservation> reservations) {
         this.reservations = reservations;
     }
 }
